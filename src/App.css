@@ -154,11 +154,61 @@
     gap: 1.5rem;
   }
   .jk-card {
-    width: 90vw;
+    width: 94vw;
     min-width: 0;
+    max-width: 99vw;
+    min-height: 160px;
+    padding: 0.5rem 0;
   }
   .jk-title {
     font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .jk-blobs-bg {
+    width: 100vw;
+    height: 100vh;
+  }
+  .jk-blob1 {
+    width: 240px;
+    height: 240px;
+    top: -60px;
+    left: -60px;
+  }
+  .jk-blob2 {
+    width: 180px;
+    height: 180px;
+    bottom: -50px;
+    right: -50px;
+  }
+  .jk-blob3 {
+    width: 120px;
+    height: 120px;
+    top: 60vh;
+    left: 60vw;
+  }
+  .jk-orb1 {
+    width: 60px;
+    height: 60px;
+    top: 16vh;
+    left: 6vw;
+  }
+  .jk-orb2 {
+    width: 40px;
+    height: 40px;
+    bottom: 10vh;
+    right: 8vw;
+  }
+  .jk-orb3 {
+    width: 32px;
+    height: 32px;
+    top: 70vh;
+    left: 70vw;
+  }
+  .jk-card-title {
+    font-size: 1.2rem;
+  }
+  .jk-card-link {
+    font-size: 1rem;
   }
 }
 
